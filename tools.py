@@ -161,7 +161,7 @@ if True:                        # Numpy / Pandas / Torch wrappers
         else:
             return torch.argmax(x,dim)
 
-    def zeros(shape, device == 'cpu'):            
+    def zeros(shape, device = 'cpu'):            
         if (device == 'cpu'):
             return np.zeros(shape)
         else:
